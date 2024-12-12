@@ -36,7 +36,7 @@ class ProcessImprovementQA:
             os.environ['OPENAI_API_KEY'] = api_key
         else:
             load_dotenv()
-            if not st.secrets('OPENAI_API_KEY'):
+            if not st.secrets['OPENAI_API_KEY']:
                 raise ValueError("OPENAI_API_KEY not found in environment variables.")
         
         self.configure_model(model, max_tokens, temperature)

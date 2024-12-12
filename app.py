@@ -10,7 +10,7 @@ import time
 import streamlit as st
 
 load_dotenv()
-api_key = st.secrets("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 
 all_resultados=[]
 

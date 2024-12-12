@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Load OpenAI API key from environment variables
 load_dotenv()
-api_key = st.secrets("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize LLM with specific settings
 def initialize_llm():
