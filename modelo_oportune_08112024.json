@@ -1,0 +1,192 @@
+{
+  "retrieve": {
+    "k": 5
+  },
+  "generate_answer": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "input": {
+          "ramo_empresa": "Educa\u00e7\u00e3o",
+          "direcionadores": "1. Automatiza\u00e7\u00e3o e celeridade na entrega de relat\u00f3rios necess\u00e1rios",
+          "nome_processo": "Realizar contrata\u00e7\u00e3o de servi\u00e7os avulsos",
+          "atividade": "Realizar contrata\u00e7\u00e3o de servi\u00e7os avulsos",
+          "evento": "Necessidade de montar um relat\u00f3rio gerencial com informa\u00e7\u00f5es extra\u00eddas no sistema",
+          "causa": "Sem preenchimento"
+        },
+        "output": "6.2 Relat\u00f3rio de acompanhamento das solicita\u00e7\u00f5es peri\u00f3dicas do servi\u00e7o"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Educa\u00e7\u00e3o",
+          "direcionadores": "1. Automatiza\u00e7\u00e3o na apura\u00e7\u00e3o das horas trabalhadas dos docentes",
+          "nome_processo": "Gerir Ponto",
+          "atividade": "Gerir Ponto",
+          "evento": "Funcionalidade n\u00e3o est\u00e1 dispon\u00edvel no sistema Senior atualmente",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Integrar escala semanal registrada no sistema educacional do professor com a folha"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Ambiental",
+          "direcionadores": "Gerar agilidade no processo, garantindo que todos os envolvidos estejam cientes das tarefas e prazos, minimizando erros de comunica\u00e7\u00e3o.",
+          "nome_processo": "Gerir Pagamento de Sal\u00e1rios e Encargos ",
+          "atividade": "Enviar informa\u00e7\u00f5es de pagamento da folha",
+          "evento": "Atrasos e ocorr\u00eancias de falhas nas informa\u00e7\u00f5es dos  colaboradores (Atualiza\u00e7\u00f5es, afastamentos, promo\u00e7\u00f5es...) que geram impacto no fechamento e pagamento da folha;",
+          "causa": "N\u00e3o ader\u00eancia ao calend\u00e1rio das atividade de FOPAG e dificuldade na gest\u00e3o dos e-mail recebidos com as informa\u00e7\u00f5es dos eventos dos colaboradores para ajustes e valida\u00e7\u00e3o da folha;"
+        },
+        "output": "Automatizar o processo de comunica\u00e7\u00e3o com fluxos de aprova\u00e7\u00e3o e envio de notifica\u00e7\u00f5es autom\u00e1ticas aos gestores e ao departamento de Pessoal;"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Distribuidora",
+          "direcionadores": "\"1. Maior confiabilidade nos dados levantados pelas ferramentas utilizadas;\n2. Maior rapidez e assertividade na tomadas de decis\u00f5es;\"",
+          "nome_processo": "Gerir distribui\u00e7\u00e3o das metas",
+          "atividade": "Analisar hist\u00f3rico das vendas",
+          "evento": "\"As informa\u00e7\u00f5es de acompanhamento de metas s\u00e3o estratificadas no BI que j\u00e1 existe , por\u00e9m as informa\u00e7\u00f5es no BI n\u00e3o est\u00e3o aderentes a necessidade dos supervisores, pois al\u00e9m do layout n\u00e3o ser aderente, a atualiza\u00e7\u00e3o dos resultados de vendas no BI \u00e9 D+1 causando diverg\u00eancia na an\u00e1lise de vendas.\nObs.: H\u00e1 diverg\u00eancia de ganho do representante (% de faturamento) x Gerente de \u00e1rea (Meta batida)\u00a0\"",
+          "causa": "Sem preenchimento"
+        },
+        "output": "\"1.  Ajustar layout do painel de BI conforme vis\u00e3o mais aderente a necessidade dos gestores de vendas e reduzir o tempo de atualiza\u00e7\u00e3o dos dados do BI \n1.1 Definir a melhor vis\u00e3o\/layout e definir tempo ideal para atualiza\u00e7\u00e3o do BI; \n1.2 Parametrizar o BI conforme defini\u00e7\u00e3o de layout e tempo de atualiza\u00e7\u00e3o; \n1.3 Divulgar atualiza\u00e7\u00e3o do BI para os envolvidos.\""
+      },
+      {
+        "input": {
+          "ramo_empresa": "Constru\u00e7\u00e3o",
+          "direcionadores": "1. Maior assertividade nas revis\u00f5es do projeto.",
+          "nome_processo": "Gerir Registro de Incorpora\u00e7\u00e3o e Emiss\u00e3o de Licen\u00e7as",
+          "atividade": "Analisar compatibilidade do projeto legal ",
+          "evento": "Equipe IDIBRA realiza revis\u00f5es constantes nos projetos, devido a falta de an\u00e1lise detalhada pelo projetista no desenvolvimento e adequa\u00e7\u00e3o dos projetos, podendo ocasionar atraso na entrega do projeto legal                                                 ",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Criar checklist padr\u00e3o de documentos e revis\u00e3o de projetos para envio dos documentos pelo arquiteto"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Energia",
+          "direcionadores": "Tomada de decis\u00e3o, identifica\u00e7\u00e3o de tend\u00eancias, monitoramento em tempo real, gest\u00e3o de riscos e compara\u00e7\u00e3o de desempenho.",
+          "nome_processo": "Monitorar Legisla\u00e7\u00e3o Ambiental",
+          "atividade": "Monitorar Legisla\u00e7\u00e3o Ambiental",
+          "evento": "Existem muitos indicadores da \u00e1rea e para um melhor acompanhamento junto ao sistema utilizado \u00e9 importante um BI para controle interno.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Desenvolver pain\u00e9is em BI separados por macroprocessos para acompanhamento e divulga\u00e7\u00e3o dos resultados dos indicadores."
+      },
+      {
+        "input": {
+          "ramo_empresa": "Educa\u00e7\u00e3o",
+          "direcionadores": "1. Padroniza\u00e7\u00e3o das regras de aprova\u00e7\u00e3o das al\u00e7adas de aprova\u00e7\u00e3o de eventos",
+          "nome_processo": "Gerir Hierarquia Organizacional",
+          "atividade": "Definir posi\u00e7\u00e3o hier\u00e1rquica",
+          "evento": "Com a implanta\u00e7\u00e3o do S\u00eanior existe conceitos que precisam de alinhamento para defini\u00e7\u00e3o das regras de aprova\u00e7\u00e3o de eventos programados e eventuais",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Padronizar regras de aprova\u00e7\u00e3o de eventos programados e eventuais"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Educa\u00e7\u00e3o",
+          "direcionadores": "Com o desenvolvimento da automatiza\u00e7\u00e3o o processo se tornar\u00e1 mais r\u00e1pido e ir\u00e1 dirimir riscos de erros de cadastro",
+          "nome_processo": "Realizar Cadastro Cont\u00e1bil",
+          "atividade": "Realizar cadastro cont\u00e1bil",
+          "evento": "Hoje \u00e9 feito por unidade de forma manual ",
+          "causa": "Sem preenchimento"
+        },
+        "output": "2.2. Automatizar cadastro e inativa\u00e7\u00e3o de per\u00edodos "
+      },
+      {
+        "input": {
+          "ramo_empresa": "Energia",
+          "direcionadores": "Proporciona uma avalia\u00e7\u00e3o mais objetiva e consistente, reduzindo a subjetividade nas vistorias, facilita a identifica\u00e7\u00e3o e prioriza\u00e7\u00e3o de itens cr\u00edticos, assegurando que os problemas mais importantes sejam tratados primeiro, relat\u00f3rios de vistoria mais consistentes e f\u00e1ceis de comparar, permitindo melhor an\u00e1lise e acompanhamento ao longo do tempo.\n",
+          "nome_processo": "Gerir Instala\u00e7\u00f5es Prediais",
+          "atividade": "Gerir Instala\u00e7\u00f5es Prediais",
+          "evento": "No registro das n\u00e3o conformidades encontradas nas vistorias n\u00e3o h\u00e1 um n\u00edvel de classifica\u00e7\u00e3o ou peso de acordo com o tipo de im\u00f3vel ou item, conforme exemplos.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Implementa\u00e7\u00e3o de um sistema que categorize os itens de vistoria por peso (import\u00e2ncia) ou tipo, com n\u00edveis espec\u00edficos definidos para cada categoria. Exemplos: Itens s\u00e3o categorizados em tipos como piso, \u00e1rea externa, \u00e1rea interna, encanamento, seguran\u00e7a, etc. Defini\u00e7\u00e3o de n\u00edveis de detalhamento para cada categoria, por exemplo, para seguran\u00e7a: N\u00edvel 1 - Extintores de inc\u00eandio, N\u00edvel 2 - Ilumina\u00e7\u00e3o de emerg\u00eancia, N\u00edvel 3 - Sinaliza\u00e7\u00e3o de sa\u00edda."
+      },
+      {
+        "input": {
+          "ramo_empresa": "Educa\u00e7\u00e3o",
+          "direcionadores": "Documenta\u00e7\u00e3o de fornecedor em sistema",
+          "nome_processo": "Gerir Empr\u00e9stimos",
+          "atividade": "Cadastrar fornecedor em sistema",
+          "evento": "Necessidade de lan\u00e7ar documentos em sistema",
+          "causa": "Sem preenchimento"
+        },
+        "output": "8.2. Verificar integra\u00e7\u00e3o do XRT com o Dynamics"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Banco",
+          "direcionadores": "\"Efici\u00eancia no Monitoramento: Com todos os acordos registrados no sistema, ser\u00e1 poss\u00edvel monitorar prazos e obriga\u00e7\u00f5es de forma eficaz, reduzindo o risco de n\u00e3o conformidade.\nCentraliza\u00e7\u00e3o de Informa\u00e7\u00f5es: A centraliza\u00e7\u00e3o dos acordos facilita o acesso \u00e0s informa\u00e7\u00f5es, promovendo uma gest\u00e3o mais integrada e informada.\nRedu\u00e7\u00e3o de Riscos: Alertas autom\u00e1ticos para prazos e obriga\u00e7\u00f5es garantir\u00e3o que todos os requisitos contratuais sejam cumpridos dentro do tempo estipulado, minimizando riscos de penalidades.\"",
+          "nome_processo": "Gerir Monitoramento e Controle de Presta\u00e7\u00e3o de Contas - Poder P\u00fablico",
+          "atividade": "Alerta de monitoramento de presta\u00e7\u00e3o de contas (Poder p\u00fablico)",
+          "evento": "Atualmente os acordos de coopera\u00e7\u00e3o n\u00e3o est\u00e3o registrados no sistema de gest\u00e3o de contratos",
+          "causa": "A aus\u00eancia de um processo formalizado para o registro dos acordos de coopera\u00e7\u00e3o no sistema de gest\u00e3o de contratos."
+        },
+        "output": "Solu\u00e7\u00e3o: Implementar um processo formal para registrar todos os acordos de coopera\u00e7\u00e3o no sistema de gest\u00e3o de contratos, garantindo que todos sejam devidamente inseridos no sistema e monitorados de forma centralizada."
+      },
+      {
+        "input": {
+          "ramo_empresa": "Ind\u00fastria de avicultura",
+          "direcionadores": "Fortalecer o controle de qualidade da embalagem, assegurando que os produtos atendam aos padr\u00f5es estabelecidos, minimizando riscos e promovendo a melhoria cont\u00ednua da qualidade.",
+          "nome_processo": "Analisar produtos em processo e produtos acabados",
+          "atividade": "Avaliar controle de qualidade da embalagem|Avaliar qualidade do empilhamento do Produto acabado",
+          "evento": "No processo de an\u00e1lise de produtos em processo e produtos acabados, atualmente, a avalia\u00e7\u00e3o da inspe\u00e7\u00e3o do ve\u00edculo antes do carregamento \u00e9 limitada a uma revis\u00e3o do formul\u00e1rio preenchido pelo operador, o que pode ter um efeito negativo na qualidade.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "\"1. Estabelecer auditorias f\u00edsicas para verificar o controle de qualidade da embalagem.\n1.1. Definir um respons\u00e1vel para realizar auditoria;\n1.2. Criar um cronograma de auditoria;\n1.3. Incluir formul\u00e1rio de auditoria no Checklist F\u00e1cil;\n1.4. Apresentar o cronograma de auditoria aos envolvidos;\n1.5. Realizar auditoria piloto;\n\""
+      },
+      {
+        "input": {
+          "ramo_empresa": "Energia",
+          "direcionadores": "Melhoria dos treinamentos, otimiza\u00e7\u00e3o dos investimentos em treinamentos, padroniza\u00e7\u00e3o dos processos, melhora nos indicadores de desempenho.",
+          "nome_processo": "Garantir Padroniza\u00e7\u00e3o dos Processos da Experi\u00eancia do Grande Cliente",
+          "atividade": "Garantir Padroniza\u00e7\u00e3o dos Processos da Experi\u00eancia do Grande Cliente",
+          "evento": "Atualmente, os treinamentos realizados para padronizar os processos da experi\u00eancia do grande cliente n\u00e3o possuem um mecanismo formal de avalia\u00e7\u00e3o de efic\u00e1cia.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Implementar um processo de avalia\u00e7\u00e3o da efic\u00e1cia dos treinamentos, que inclua defini\u00e7\u00e3o clara dos objetivos de cada treinamento, coleta de dados do desempenho do treinamento, an\u00e1lise dados do treinamento (identifica\u00e7\u00e3o dos pontos fortes e fracos do treinamento, n\u00edvel de aprendizado dos participantes, impacto na performance, etc.) e plano de a\u00e7\u00e3o (implementar melhorias nos treinamentos com base nos resultados da avalia\u00e7\u00e3o)."
+      },
+      {
+        "input": {
+          "ramo_empresa": "Ind\u00fastria de avicultura",
+          "direcionadores": "Sem preenchimento",
+          "nome_processo": "Tesouraria - Rec",
+          "atividade": "Sem preenchimento",
+          "evento": "Tesouraria: n\u00e3o s\u00e3o formalizados os crit\u00e9rios para fundo fixo.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Automatizar rotina de solicita\u00e7\u00e3o de fundo fixo, com travas para limites mensais e al\u00e7ada de aprova\u00e7\u00e3o"
+      },
+      {
+        "input": {
+          "ramo_empresa": "Distribuidora",
+          "direcionadores": "\"1. Redu\u00e7\u00e3o de riscos de erros associados \u00e0 entrada manual de dados;\n2. Otimiza\u00e7\u00e3o de tempo do Trade Marketing.\"",
+          "nome_processo": "Gerir performance de campanhas inteligentes",
+          "atividade": "Construir base de dados da campanha \/ Elaborar o acompanhamento da campanha",
+          "evento": "Atualmente a equipe imputa os dados de acompanhamento das campanhas no Excel e a sincroniza\u00e7\u00e3o com o Power BI ocorre de maneira manual com a elabora\u00e7\u00e3o do acompanhamento dessas campanhas. Dessa forma, observa-se uma Manualiza\u00e7\u00e3o de duas plataformas que deveriam atuar de forma que uma alimentasse a outra de forma autom\u00e1tica.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "\"1. Parametrizar base de dados do Power BI para automatiza\u00e7\u00e3o do acompanhamento da performance das campanhas inteligentes. \n1.1 Estudar a viabilidade de sincroniza\u00e7\u00e3o autom\u00e1tica de base de dados do Winthor ou cria\u00e7\u00e3o de base espelho manipulada por analista espec\u00edfico;\n1.2 Parametrizar automatiza\u00e7\u00f5es de consumo; \n1.3 Testar ambiente de homologa\u00e7\u00e3o;\n1.4 Validar com a equipe de Trade Marketing;\n1.5 Divulgar aos envolvidos a melhoria implantada. \""
+      },
+      {
+        "input": {
+          "ramo_empresa": "Ind\u00fastria de avicultura",
+          "direcionadores": "Sem preenchimento",
+          "nome_processo": "Tesouraria - Rec",
+          "atividade": "Sem preenchimento",
+          "evento": "Tesouraria: n\u00e3o s\u00e3o formalizados os crit\u00e9rios para fundo fixo.",
+          "causa": "Sem preenchimento"
+        },
+        "output": "Elaborar pol\u00edtica de fundo fixo (definir prazo para presta\u00e7\u00e3o de contas, tipos de despesas e limite de valores mensais)"
+      }
+    ],
+    "signature_instructions": "** Contexto: **\nVoc\u00ea \u00e9 um experiente Gerente de Projetos e Processos de uma grande empresa que presta consultoria na \u00e1rea de projetos e possui\ndiversas certifica\u00e7\u00f5es internacionais. \nSua tarefa principal \u00e9 mapear os problemas que s\u00e3o identificados na consultoria, perceber quais s\u00e3o as oportunidades de melhoria que ir\u00e3o favorecer o cliente e o projeto como um todo e por fim ter um plano de tarefas bem definido, em t\u00f3picos, para o problema relatado e identificado juntamente com o cliente. Sua id\u00e9ias para melhorar os processos da empresa com oportunidades aprendidas durante o seu exerc\u00edcio de consultoria em outros clientes far\u00e1 toda diferen\u00e7a. A entrada de dados ser\u00e1 feita de forma estruturada para garantir que todos os campos do diagn\u00f3stico sejam inseridos, segue o exemplo:\n\n** EXEMPLO DE ENTRADA DE DADOS: **\n    - ramo_empresa: aqui entra o nicho de mercado da empresa,\n    -  direcionadores: o objetivo do projeto,\n    -  nome_do_processo: nome dado para identificar o projeto e processo,\n    -  atividade: a\u00e7\u00e3o que ser\u00e1 executada,\n    -  evento: situa\u00e7\u00e3o ou problema identificado,\n    -  causa: fato gerador do problema ou situa\u00e7\u00e3o que est\u00e1 no evento",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "** Contexto: **\nVoc\u00ea \u00e9 um experiente Gerente de Projetos e Processos de uma grande empresa que presta consultoria na \u00e1rea de projetos e possui\ndiversas certifica\u00e7\u00f5es internacionais. \nSua tarefa principal \u00e9 mapear os problemas que s\u00e3o identificados na consultoria, perceber quais s\u00e3o as oportunidades de melhoria que ir\u00e3o favorecer o cliente e o projeto como um todo e por fim ter um plano de tarefas bem definido, em t\u00f3picos, para o problema relatado e identificado juntamente com o cliente. Sua id\u00e9ias para melhorar os processos da empresa com oportunidades aprendidas durante o seu exerc\u00edcio de consultoria em outros clientes far\u00e1 toda diferen\u00e7a. A entrada de dados ser\u00e1 feita de forma estruturada para garantir que todos os campos do diagn\u00f3stico sejam inseridos, segue o exemplo:\n\n** EXEMPLO DE ENTRADA DE DADOS: **\n    - ramo_empresa: aqui entra o nicho de mercado da empresa,\n    -  direcionadores: o objetivo do projeto,\n    -  nome_do_processo: nome dado para identificar o projeto e processo,\n    -  atividade: a\u00e7\u00e3o que ser\u00e1 executada,\n    -  evento: situa\u00e7\u00e3o ou problema identificado,\n    -  causa: fato gerador do problema ou situa\u00e7\u00e3o que est\u00e1 no evento",
+    "extended_signature_prefix": "Answer:"
+  }
+}
