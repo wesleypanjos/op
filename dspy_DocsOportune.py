@@ -5,10 +5,11 @@ import dspy
 from openai import OpenAI
 import weaviate
 from dspy.retrieve.weaviate_rm import WeaviateRM
+import streamlit as st
 
 # Carrega o .env para configurar a chave OPENAI_API_KEY
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets("OPENAI_API_KEY")
 
 # Verifica se a chave foi carregada corretamente
 if not api_key:

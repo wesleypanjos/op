@@ -7,20 +7,20 @@ import dspy
 from openai import OpenAI
 from dspy_DocsOportune import OportuneRAG
 from weaviate.auth import AuthApiKey
-
+import streamlit as st
 class OportuneRAGClient:
     def __init__(self):
         # Explicitly load .env file and print debug information
         load_dotenv()
        
         # Debug print environment variables
-        print("OPENAI_API_KEY:", "SET" if os.getenv("OPENAI_API_KEY") else "NOT SET")
-        print("WEAVIATE_CLUSTER_URL:", os.getenv("WEAVIATE_URL"))
-        print("WEAVIATE_API_KEY:", "SET" if os.getenv("WEAVIATE_API_KEY") else "NOT SET")
+        print("OPENAI_API_KEY:", "SET" if st.secrets("OPENAI_API_KEY") else "NOT SET")
+        print("WEAVIATE_CLUSTER_URL:", st.secrets("WEAVIATE_URL"))
+        print("WEAVIATE_API_KEY:", "SET" if st.secrets("WEAVIATE_API_KEY") else "NOT SET")
         # Retrieve environment variables
-        self.secretk = os.getenv("OPENAI_API_KEY")
-        self.weaviate_cluster_url = os.getenv("WEAVIATE_URL")
-        self.weaviate_api_key = os.getenv("WEAVIATE_API_KEY")
+        self.secretk = st.secrets("OPENAI_API_KEY")
+        self.weaviate_cluster_url = st.secrets("WEAVIATE_URL")
+        self.weaviate_api_key = st.secrets("WEAVIATE_API_KEY")
         # Validate environment variables
         if not all([self.secretk, self.weaviate_cluster_url, self.weaviate_api_key]):
             print("Error: Missing required environment variables")

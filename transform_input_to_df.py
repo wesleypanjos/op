@@ -7,13 +7,14 @@ from langchain_experimental.tools import PythonREPLTool
 from langchain.hub import pull as hub_pull
 from dotenv import load_dotenv
 import os
+import streamlit as st
 
 # Initialize logger
 logger = logging.getLogger(__name__)
 
 # Load OpenAI API key from environment variables
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets("OPENAI_API_KEY")
 
 # Initialize LLM with specific settings
 def initialize_llm():

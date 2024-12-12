@@ -2,6 +2,8 @@ import pandas as pd
 import openai
 import weaviate
 import os
+import streamlit as st
+
 
 df_base = pd.read_excel('Base.xlsx', skiprows = 2, header = 1)
 df_base = df_base.iloc[:, :9]
@@ -20,13 +22,13 @@ renomear = {"EMPRESA": "EMPRESA",
 df_base = df_base.rename(columns=renomear)
 
 # Configuração da API OpenAI
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets("OPENAI_API_KEY")
 
 # Conexão com o Weaviate
 client = weaviate.Client(
-    url=os.getenv("WEAVIATE_URL"),
+    url=st.secrets("WEAVIATE_URL"),
     auth_client_secret=weaviate.AuthApiKey(
-        api_key=os.getenv("WEAVIATE_API_KEY") 
+        api_key=st.secrets("WEAVIATE_API_KEY") 
     ),
     additional_headers={
         "X-OpenAI-Api-Key": openai.api_key,  

@@ -7,9 +7,10 @@ from process import run_agent_analysis
 import pandas as pd
 from io import BytesIO
 import time
+import streamlit as st
 
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets("OPENAI_API_KEY")
 
 all_resultados=[]
 
