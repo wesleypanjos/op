@@ -25,11 +25,15 @@ class OportuneRAGClient:
         if not all([self.secretk, self.weaviate_cluster_url, self.weaviate_api_key]):
             print("Error: Missing required environment variables")
             sys.exit(1)
-        self.client = OpenAI(api_key=self.secretk)
-        self.weaviate_client = self.setup_weaviate_client()
-        self.params4o = self.setup_dspy_params()
-        self.modelo = OportuneRAG()
-        self.load_modelo()
+        try:
+            self.client = OpenAI(api_key=self.secretk)
+            self.weaviate_client = self.setup_weaviate_client()
+            self.params4o = self.setup_dspy_params()
+            self.modelo = OportuneRAG()
+            self.load_modelo()
+        except ValueError:
+            print(self.secretk)
+            
 
     def setup_weaviate_client(self):
         try:
